@@ -1,6 +1,6 @@
 const http=require("http")
 const server=http.createServer((req,res)=>{
-    // console.log(req);
+    console.log("req called");
     res.writeHead(200,{"Content-Type":"application/json"})
     res.end("Helloo world")
 })
